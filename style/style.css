@@ -433,12 +433,24 @@ ul, ol {
 }
 
 
+/*****************************
+
+       contact page
+
+*****************************/
 
 
+@media only screen and (max-width: 1300px) {
+    .contact-img {
+        display: none !important;
+    }
 
+}
 
 
 .contact-img {
     height: 450px;
     width: auto;
 }
+
+
