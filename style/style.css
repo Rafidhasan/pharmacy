@@ -32,6 +32,41 @@
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar {
+        font-weight: bold;
+        font-size: 1.3em;
+        background: #262626;
+    }
+
+    .header h1{
+        font-size: 1.4em;
+        color: #fff;
+        text-align: center;
+        margin-top: 60px !important;
+    } 
+
+    .header p {
+        font-size: 1em;
+        color: #fff;
+    }
+
+    .jumbotron_home {
+    position: relative;
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(to right bottom,
+     rgba(160, 109, 122, 0.8),
+      rgba(175, 40, 180, 0.55)),
+      url(../img/cover.jpg);
+      clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  }
+
 
 .navbar {
     font-weight: bold;
@@ -99,6 +134,7 @@ hr {
 }
 
 
+
 .icon_header {
     text-align: center;
 }
@@ -127,6 +163,16 @@ hr {
     height: 18rem;
     width: auto;
     margin: 0;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .serving_image {
+        height: 6rem;
+        width: auto;
+        margin: 0;
+        margin-top: 10px;
+    }
 }
 
 .flow_text {
@@ -153,6 +199,43 @@ hr {
       rgba(80, 131, 89, 0.55)),
     url(../img/cover.jpg);
     clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section_testimonial {
+        position: relative;
+        margin: 0;
+        overflow: hidden !important;
+        height: 100vh;
+        background-image: linear-gradient(to right bottom,
+         rgba(70, 100, 73, 0.8),
+          rgba(80, 131, 89, 0.55)),
+        url(../img/cover.jpg);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .carousel {
+        height: auto;
+        width: auto;
+        margin-top: 80px !important;
+
+    }
+    .carousel .item {
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+        overflow: hidden;
+        min-height: 90px;
+    }
+    .carousel .item .img-box {
+        width: 150px !important;
+        height: 150px !important;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+    }
 }
 
 
